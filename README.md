@@ -1,4 +1,4 @@
-# Probabilistic Data Augmentation in Natural Language Understanding using Weak Supervision
+# DAWSON: Data Augmentation using Weak Supervision On Natural Language
 
 We propose a novel data augmentation model for text, using weak supervision. Recent work in the field uses BERT and masked language modelling to conditionally augment data. These
 models all involve a small, high-quality labeled dataset, but omit the abundance of unlabeled data, which is likely present if one considers a model in the first place. Weak supervision methods, such as Snorkel, make use of the vastness of unlabeled data, but largely omit the available ground truth labels. We combine data augmentation and weak supervision techniques into a holistic method to efficiently train an end-to-end model in a low-data regime. We outperformed the benchmark for the SST-2 dataset by 1.5, QQP dataset by 4.4, and QNLI dataset by 3.0 absolute accuracy points, and show that data augmentation is also effective for natural language understanding tasks.
